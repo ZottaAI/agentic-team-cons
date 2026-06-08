@@ -1,0 +1,2 @@
+finding_id,title,condition,criteria,cause,consequence,recommendation,rating,affected_control,management_response,remediation_owner,remediation_date,status
+F-01,"Example finding title","What is (the observed state)","What should be (standard/policy/rule reference)","Why it happened (root cause)","Impact / risk if unaddressed","Specific, actionable recommendation",High,C-01,"(client response)","(owner)","(date)",Open

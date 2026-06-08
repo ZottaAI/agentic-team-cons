@@ -1,0 +1,16 @@
+# Per-engagement working files are client-confidential. Never commit them to the template repo.
+engagements/*
+!engagements/.gitkeep
+!engagements/README.md
+
+# Firm-private knowledge base content (the template ships only the README skeleton).
+.claude/memory/precedents/
+.claude/memory/methodology/
+.claude/memory/reg-library/
+.claude/memory/templates-firm/
+
+# OS / editor noise
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
