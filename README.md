@@ -8,6 +8,29 @@ an engagement through gated stages and keeps an audit trail of who-reviewed-what
 **It is a template and accelerator, not an autonomous delivery machine.** AI drafts,
 tests, challenges, and assembles. Humans decide and sign. The AI never signs off.
 
+---
+
+## Start here (if you work in Risk Advisory)
+
+You drive the whole thing with one command. Open the repo in Claude Code and type:
+
+```
+/engagement "Internal audit of procurement controls, ClientCo"
+```
+
+The Engagement Conductor scaffolds the working file and walks you through the lifecycle, dispatching
+the right specialist at each stage and **stopping at every human gate** (you confirm acceptance and
+you sign off; the AI never does). You are the partner-in-charge; the agents are your team.
+
+- **New to it?** Read [`QUICKSTART.md`](QUICKSTART.md) and the fully worked example in
+  [`examples/northwind-ia-procurement/`](examples/northwind-ia-procurement/) first. It is a complete
+  synthetic engagement, all five gates, with the audit trail.
+- **Just need one check, not a whole engagement?** Run a single skill, e.g. `/independence-check`,
+  `/confidentiality-check`, `/quality-check`, or `/reg-update`.
+- **Resuming or checking status?** `/engagement status <ref>`.
+
+---
+
 ## What's in here
 
 ```
